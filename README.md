@@ -1,5 +1,5 @@
 # AntiTorquePedals
-Code needed for Anti Torque / Rudder pedals
+This is the code needed for creating a very simple Anti Torque / Rudder pedals
 
 I loaded a [Library for joystick](https://github.com/MHeironimus/ArduinoJoystickLibrary) into the Arduino IDE
 I loaded this code into an arduino pro micro
