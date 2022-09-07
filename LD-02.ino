@@ -21,6 +21,6 @@ void setup() {
 
 void loop() {
    RUDDERX = analogRead(A_RUDDER);                          // Read Joystick
-   Joystick.setRudder(map(RUDDERX, 340, 710, -1 * AXIS_RES, AXIS_RES)* -1);
+   Joystick.setRudder(map(RUDDERX, 0, 1024, -1 * AXIS_RES, AXIS_RES)* -1);
    Joystick.sendState();
 } 
