@@ -15,6 +15,7 @@ The closer that the sensor is to the magnet, the less amount of degrees of movem
 
 ## Installing
 I loaded a [Library for joystick](https://github.com/MHeironimus/ArduinoJoystickLibrary) into the Arduino IDE
+
 I loaded this code into an arduino pro micro
 
 I wired the output of a UHS 3150U hall effect transistor into Analog input 0
