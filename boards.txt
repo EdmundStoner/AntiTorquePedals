@@ -1,58 +1,108 @@
 ##############################################################
-## to make multiple boards replace 'mybrddef' with your next board definition name using regular characters and no spaces
-## Each definition is a new menu item in the Arduino Boards Menu
+## to make multiple boards replace 'joysticka' with your next board definition name using regular characters and no spaces
 ####################################
 
-# The .name will be displayed in the Arduino menu 
-mybrddef.name=My New Board
+############################################################
+# Joystick A
+############################################################
+# The .name that will be displayed in the Arduino menu
+joysticka.name=My New Board
 
 ####################################
 # New information to re-define your 'Pro Micro' board
-####################################
 
 # The Vendor ID Number is predefined & registered at usb.org (there's a list @ http://www.linux-usb.org/usb.ids)
-mybrddef.build.vid=0x0a05     
+joysticka.build.vid=0x0a05     
 
 # the Manufaturers name                   
-mybrddef.build.usb_manufacturer="Unknown Manufacturer"
+joysticka.build.usb_manufacturer="Unknown Manufacturer"
 
 # Your Product ID
-mybrddef.build.pid=0x1234
+joysticka.build.pid=0x1234
 
 # your Product Name
-mybrddef.build.usb_product="My New Board" 
+joysticka.build.usb_product="My New Board" 
 
-##############################################################################################################################
-# Standard Definitions for this new Pro Micro definition
-# change at your own risk
-##############################################################################################################################
+#####################################
+# Standard Definitions for the Pro Micro
+##
 
-mybrddef.upload.tool=avrdude
-mybrddef.upload.tool.default=avrdude
-mybrddef.upload.tool.network=arduino_ota
-mybrddef.upload.protocol=avr109
-mybrddef.upload.maximum_size=28672
-mybrddef.upload.maximum_data_size=2560
-mybrddef.upload.speed=57600
-mybrddef.upload.disable_flushing=true
-mybrddef.upload.use_1200bps_touch=true
-mybrddef.upload.wait_for_upload_port=true
+joysticka.upload.tool=avrdude
+joysticka.upload.tool.default=avrdude
+joysticka.upload.tool.network=arduino_ota
+joysticka.upload.protocol=avr109
+joysticka.upload.maximum_size=28672
+joysticka.upload.maximum_data_size=2560
+joysticka.upload.speed=57600
+joysticka.upload.disable_flushing=true
+joysticka.upload.use_1200bps_touch=true
+joysticka.upload.wait_for_upload_port=true
 
-mybrddef.bootloader.tool=avrdude
-mybrddef.bootloader.tool.default=avrdude
-mybrddef.bootloader.low_fuses=0xff
-mybrddef.bootloader.high_fuses=0xd8
-mybrddef.bootloader.extended_fuses=0xcb
-mybrddef.bootloader.file=caterina/Caterina-mybrddef.hex
-mybrddef.bootloader.unlock_bits=0x3F
-mybrddef.bootloader.lock_bits=0x2F
+joysticka.bootloader.tool=avrdude
+joysticka.bootloader.tool.default=avrdude
+joysticka.bootloader.low_fuses=0xff
+joysticka.bootloader.high_fuses=0xd8
+joysticka.bootloader.extended_fuses=0xcb
+joysticka.bootloader.file=caterina/Caterina-joysticka.hex
+joysticka.bootloader.unlock_bits=0x3F
+joysticka.bootloader.lock_bits=0x2F
 
-mybrddef.build.mcu=atmega32u4
-mybrddef.build.f_cpu=16000000L
-mybrddef.build.board=AVR_MICRO
-mybrddef.build.core=arduino
-mybrddef.build.variant=micro
-mybrddef.build.extra_flags={build.usb_flags}
+joysticka.build.mcu=atmega32u4
+joysticka.build.f_cpu=16000000L
+joysticka.build.board=AVR_MICRO
+joysticka.build.core=arduino
+joysticka.build.variant=micro
+joysticka.build.extra_flags={build.usb_flags}
 
-##############################################################################################################################
+############################################################
+# Joystick B
+############################################################
+# The .name that will be displayed in the Arduino menu
+joystickb.name=Another New Board
+
+####################################
+# New information to re-define your 'Pro Micro' board
+
+# The Vendor ID Number is predefined & registered at usb.org (there's a list @ http://www.linux-usb.org/usb.ids)
+joystickb.build.vid=0x0a05     
+
+# the Manufaturers name                   
+joystickb.build.usb_manufacturer="Unknown Manufacturer"
+
+# Your Product ID
+joystickb.build.pid=0x4321
+
+# your Product Name
+joystickb.build.usb_product="Another New Board" 
+
+#####################################
+# Standard Definitions for the Pro Micro
+##
+
+joystickb.upload.tool=avrdude
+joystickb.upload.tool.default=avrdude
+joystickb.upload.tool.network=arduino_ota
+joystickb.upload.protocol=avr109
+joystickb.upload.maximum_size=28672
+joystickb.upload.maximum_data_size=2560
+joystickb.upload.speed=57600
+joystickb.upload.disable_flushing=true
+joystickb.upload.use_1200bps_touch=true
+joystickb.upload.wait_for_upload_port=true
+
+joystickb.bootloader.tool=avrdude
+joystickb.bootloader.tool.default=avrdude
+joystickb.bootloader.low_fuses=0xff
+joystickb.bootloader.high_fuses=0xd8
+joystickb.bootloader.extended_fuses=0xcb
+joystickb.bootloader.file=caterina/Caterina-joystickb.hex
+joystickb.bootloader.unlock_bits=0x3F
+joystickb.bootloader.lock_bits=0x2F
+
+joystickb.build.mcu=atmega32u4
+joystickb.build.f_cpu=16000000L
+joystickb.build.board=AVR_MICRO
+joystickb.build.core=arduino
+joystickb.build.variant=micro
+joystickb.build.extra_flags={build.usb_flags}
 
