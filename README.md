@@ -23,6 +23,6 @@ The higher the strength rating for a magnet will also decrease degrees of the mo
 ## Installing
 I loaded a [Library for joystick](https://github.com/MHeironimus/ArduinoJoystickLibrary) into the Arduino IDE
 
-I loaded this code into an arduino pro micro. If multiple joysticks are to be used on the same computer each [joystick should be redefined](https://github.com/EdmundStoner/AntiTorquePedals/edit/main/ChangeManufacturerID.md).
+I loaded this code into an arduino pro micro. If multiple joysticks are to be used on the same computer each [joystick should be redefined](https://github.com/EdmundStoner/AntiTorquePedals/blob/main/ChangeManufacturerID.md).
 
 I wired the output of a UHS 3150U hall effect transistor into Analog input 0
