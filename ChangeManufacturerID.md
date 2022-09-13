@@ -6,7 +6,7 @@ The ATMEGA32U4 processors can be used to create a 'Dual Boot' Arduino board. The
 
 I created multiple joysticks and then plugged them all into my computer, but, since they were all using the same default defininitions, with the same name, manufacturer and id number, they did not operate properly together. So, this led me to define the menu items on the **Arduino IDE Tools/Boards** for each board that I created.
 
-Adding new boards to the **Arduino IDE** is acheived by creating a boards.txt file in the proper location with the proper folder tree structure. This file defines the procedures, variables, processors, layouts for memory and speed of the components that are used in all of the boards that the **Arduino IDE** can create and upload files to and is used for the menu items that are in your **Arduino IDE** menu under **Tools/Boards:**. I have created an  [example boards.txt](https://github.com/EdmundStoner/AntiTorquePedals/blob/main/ChangeManufacturerID.md) in this repository
+Adding new boards to the **Arduino IDE** is acheived by creating a boards.txt file in the proper location with the proper folder tree structure. This file defines the procedures, variables, processors, layouts for memory and speed of the components that are used in all of the boards that the **Arduino IDE** can create and upload files to and is used for the menu items that are in your **Arduino IDE** menu under **Tools/Boards:**. I have created an  [example boards.txt](https://github.com/EdmundStoner/AntiTorquePedals/blob/main/boards.txt) in this repository
 
 *The definitions and descriptions to the variables that are used in the boards.txt files are beyond the scope of this document.*
 
