@@ -31,7 +31,7 @@ To find the location of the default boards.txt:
 - Create a **bootloaders** folder in the new **myboards** folder
 - copy the **caterina** folder from the **bootloaders** folder that is in your **default hardware location** to the **bootloaders** folder in your **New hardware location**
 - I created a file named boards.txt in the **New hardware location** that defines the board that I am creating
-  - Copy the **default hardware location**/boards.txt section that defined the board that you are using *(mine was the 'Arduino Micro' section)*
+  - Copy the section from the **default hardware location**/boards.txt that defines the board that you will be using *(mine was the 'Arduino Micro' section)*
   - Paste the copy of the default section of definitions into the **New hardware location**/boards.txt file
   - Every variable defined in this section starts with a 'class' name that can be related to each board *(mine was 'micro.')*
   - replace all of these class names with a name that will define your particular board, such as joysticka. or joy2.. **NO SPACES**
