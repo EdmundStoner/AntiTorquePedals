@@ -45,5 +45,7 @@ To find the location of the default boards.txt:
     - joysticka.build.usb_product is the quoted text name of your board that will be shown on the computer that it is plugged into
    
 Restart the **Arduino IDE** to see the new menu items 
-Choose the board that you want your joystick to be developed as
+
+Choose the board that you want your joystick to be developed as.
+
 Upload the program to your board
